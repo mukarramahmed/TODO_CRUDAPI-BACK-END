@@ -11,13 +11,6 @@ app.use(express.json());
 
 connectToDB();
 
-// app.get("/", (req, res) => {
-//   res.send({
-//     success: true,
-//     message: "Server is Active",
-//   });
-// });
-
 //TODO APIS
 app.get("/todos", async (req, res) => {
   try {
