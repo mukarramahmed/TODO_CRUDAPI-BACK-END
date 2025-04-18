@@ -20,7 +20,7 @@ app.get("/todos", async (req, res) => {
       message: "Todo Retrived Successfully",
       data: result,
     });
-  } catch (error) {
+  } catch (error) {  
     res.send({
       success: false,
       message: "Failed To Retrived Todo Lists",
